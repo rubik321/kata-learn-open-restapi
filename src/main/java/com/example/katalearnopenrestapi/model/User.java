@@ -1,2 +1,13 @@
-package com.example.katalearnopenrestapi.model;public class User {
+package com.example.katalearnopenrestapi.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class User {
+    private Long id;
+    private String name;
+    private String lastName;
+    private Byte age;
 }
